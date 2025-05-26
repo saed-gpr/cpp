@@ -164,4 +164,26 @@ a > 5 || b < 10; // یا
 !a;              // نقیض
 ```
 
+# ساختار های شرطی
+
+دستور if
+
+
+```cpp
+int age = 20;
+if (age >= 18) {
+    cout << "You are an adult." << endl;
+}
+```
+
+دستور if-else
+
+```cpp
+if (age >= 18) {
+    cout << "You can vote." << endl;
+} else {
+    cout << "You are too young to vote." << endl;
+}
+```
+
 Author : [Saed Gholipour](https://github.com/saed-gpr)
