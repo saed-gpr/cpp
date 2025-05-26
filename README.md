@@ -1,6 +1,6 @@
 # CPP
-
-# اسکلت تمامی برنامه هایی که با cpp نوشته میشن
+# جلسه اول
+### اسکلت تمامی برنامه هایی که با cpp نوشته میشن
 
 <p>
   
@@ -100,4 +100,26 @@ return 0;
 }
 ```
 
-Autor : [Saed Gholipour](https://github.com/saed-gpr)
+# معرفی دستور `cin`
+
+این دستور میتواند از کاربر ورودی ای را بگیرد. همچنین این دستور مخفف character input هست
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main (){
+
+  cout << "enter your age:" << endl;
+  int age;
+  cin >> age;
+  return 0;
+}
+```
+
+
+# تمرین جلسه اول:
+
+برنامه ای بنویسید که جمله enter your age را به کاربر نشان دهد و منتظر باشد که کاربر سن خود را وارد کند و سپس سن او را در خروجی چاپ کند.
+
+Author : [Saed Gholipour](https://github.com/saed-gpr)
