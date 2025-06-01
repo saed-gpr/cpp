@@ -164,6 +164,24 @@ a > 5 || b < 10; // یا
 !a;              // نقیض
 ```
 
+س### مثال:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main (){
+
+	int number1 , number2;
+	cin >> number1;
+	cin >> number2;
+	
+	cout << "jam: " << number1 + number2;
+	
+	
+  return 0;
+}
+```
 # ساختار های شرطی
 
 دستور if
