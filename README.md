@@ -88,7 +88,7 @@ bool isStudent = true;
 
 ```cpp
 #include <iostream>
-using namesapace std;
+using namespace std;
 
 int main(){
 
